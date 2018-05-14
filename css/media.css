@@ -1,0 +1,181 @@
+/*手机屏幕在320到480的样式*/
+@media screen and (min-width:320px ) and (max-width: 480px){
+	.pic{
+		width: 100%;
+		float: none;
+	}
+	.header_box{
+		background-size: cover;
+	}
+	.top_header{
+		height: 100px;
+	}
+	.top_cont{
+		width: 100%;
+	}
+	.left_show{
+		display: block;
+    	position: relative;
+    	width: 34px;
+    	height: 34px;
+		background:url("../images/btn1.jpg") no-repeat;
+		background-size:68px 62px;
+		top: 4px;
+	}
+	.top_btn{
+		width: 30%;
+    	top: -17%;
+	}
+	.substance{
+		display: none;
+	}
+	.substance:hover{
+		display: block;
+	}
+	.substance a{
+	    height: 100px;
+	    line-height: 100px;
+	    text-align: center;
+	    margin: 10px 4px;
+	    font-size: 12px;
+	    float: left;
+	    color: #818181;
+	}
+	.substance span {
+	    float: left;
+	    width: 4px;
+	    height: 100px;
+	    line-height: 120px;
+	}
+
+
+	/*头部内容区域*/
+	.bottom_box_left{
+	    width: 100%;
+	    float: none;
+	}
+	.bottom_box {
+    	width: 100%;
+    	height: 810px;
+	}
+	.left_list {
+    	width: 12%;
+	}
+    .listing:hover{
+    	display: block;
+    }
+	.listing em{
+    	display: block;
+    	font-style: normal;
+	}
+    .left_list a:hover{
+    	border-left-color:red;
+    	background: black;
+	}
+	.bottom_box_right {
+	    width: 85%;
+	    height: 440px;
+	    top: 350px;
+	    padding: 1.35em 2.5em 0;
+	}
+	.news_box {
+    	height: 425px;
+	}
+	.news_box_list a {
+    	width: 100%;
+	}
+
+
+	/*中间图片样式*/
+	.img_list{
+    	background: #f6f7fb;
+    	height: 100%;
+    	margin-top: 460px;
+	}
+	.img_box{
+	    width: 100%;
+	    /*height: 100%;*/
+		/*background: red;*/
+		/*position: absolute;*/
+	}
+	.active_pic{
+	    margin: 1% 15%;
+	}
+	.active_list{
+        margin-left: 1%;
+    	padding: 2px 0px;
+	}
+
+	/*主要内容部分*/
+
+	.contain_box {
+    	width: 100%;
+    	height: 100%;
+    	/*margin: 0 auto;*/
+    	overflow: hidden;
+	}
+	.left_content {
+	    width: 100%;
+	    height: 700px;
+	}
+	.content_header {
+	    text-indent: 1em;
+	    line-height: 30px;
+	    background: rgba(255,0,0,0.2);
+	}
+	.content_header a {
+	    right: 1em;
+	    font-size: 0.8em;
+	    height: 30px;
+	    line-height: 30px;
+	}
+	.content_header i {
+	    width: 1.2em;
+	    margin-left: .8em;
+	    background-position: -1.12em -2.1em;
+	}
+	.details {
+	    overflow: hidden;
+	}
+	.details_block {
+    	height: 680px;
+	}
+	.details_list {
+	    width: 48%;
+	    margin: 0px 0.25em 1em;
+	}
+	.details_img img{
+    	width: 100%;
+    	height: 100%;
+	}
+
+	/*主要内容部分*/
+
+	/*右侧新游测试样式*/
+	.right_content {
+	    width: 100%;
+	    height: 430px;
+	    margin-top: 3em;
+	    overflow: hidden;
+	}
+	.right_content_list li{
+		float: left;
+	}
+	.right_content_list a {
+	    height: 90px;
+	    padding: 1em;
+	}
+
+	/*右侧新游测试样式*/
+
+	
+
+
+
+
+	/*头部内容区域*/
+	
+}
+@media screen and (min-width: 1260px){
+	
+}
